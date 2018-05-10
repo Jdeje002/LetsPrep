@@ -113,9 +113,9 @@ module.exports = function (app) {
         
         var queryURL = "https://api.edamam.com/search?q=&app_id=" + app_id + "&app_key=" + app_key + "&calories=0-" + calories 
         
-        request("https://api.edamam.com/search?q=&app_id=" + app_id + "&app_key=" + app_key + "&calories=0-"+ calories, function(error, response, body){
+        request("https://api.edamam.com/search?q=&app_id=" + app_id + "&app_key=" + app_key + "&calories=0-" + calories, function(error, response, body){
             
-        console.log(queryURL)
+        // console.log(queryURL)
         // console.log(response.body)
         res.json(response.body)
         })
