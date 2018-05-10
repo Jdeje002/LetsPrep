@@ -1,6 +1,10 @@
 var express = require('express')
 var bodyParser = require('body-parser')
 var path = require('path')
+<<<<<<< HEAD
+=======
+require('dotenv').config()
+>>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
 
 
 var app = express()
