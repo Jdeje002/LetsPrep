@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
-<<<<<<< HEAD
-=======
 .navHamburger {
   color: white;
   position: sticky;
@@ -12,7 +10,6 @@
   top: 3%;
 }
 
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
 .footer {
     height: 90px;
     color: rgb(252, 238, 229);
@@ -23,10 +20,7 @@
 #copyright {
   font-weight: bold;
   padding-top: 35px;
-<<<<<<< HEAD
-=======
   margin-top: 0px;
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
 }
 
 #homeSection {
@@ -36,18 +30,11 @@
 
 #tableTopp{
     width: 100%;
-<<<<<<< HEAD
-    height: 906px;
-    position: absolute;
-    z-index: 0;
-    margin-bottom: 0px;
-=======
     height: 975px;
     position: absolute;
     z-index: 0;
     margin-bottom: 0px;
     top: 0px;
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
 }
 
 #mainTitle {
@@ -151,11 +138,8 @@
 .whySection {
     top: 1600px;
     background-color:rgb(252, 238, 229);
-<<<<<<< HEAD
-=======
     height: 1000px;
     margin-bottom: 0px;
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
 }
 
 #whyTitle {
@@ -165,8 +149,6 @@
     margin-top: 110px;
 }
 
-<<<<<<< HEAD
-=======
 .whyPara {
   margin-bottom: 40px;
   width: 400px;
@@ -181,7 +163,6 @@
   margin-top: 0px;
 }
 
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
 /* User HTML */
 
 /* Calendar */
@@ -283,43 +264,11 @@
     z-index: 1;
   }
   
-<<<<<<< HEAD
-  .first-week {
-    margin-bottom: 25px;
-    word-spacing: 55px;
-  }
-  
-  .second-week {
-    margin-bottom: 25px;
-    word-spacing: 53px;
-  }
-  
-  .third-week {
-    margin-bottom: 25px;
-    word-spacing: 58px;
-  }
-  
-  .fourth-week {
-=======
   .week {
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
     margin-bottom: 25px;
     word-spacing: 58px;
   }
   
-<<<<<<< HEAD
-  .fifth-week {
-    margin-bottom: 25px;
-    word-spacing: 56px;
-  }
-  
-  .sixth-week {
-    margin-bottom: 25px;
-    word-spacing: 55px;
-  }
-  
-=======
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
   .active-day {
     width: 35px;
     height: 35px;
@@ -327,11 +276,7 @@
     background-color: #64b5f6;
     position: relative;
     top: 145px;
-<<<<<<< HEAD
-    left: 801px;
-=======
     left: 825px;
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
   }
   
   .white {

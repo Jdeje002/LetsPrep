@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-module.exports = function(sequelize,DataType){
-    
-    var User = sequelize.define('User',{
-=======
 module.exports = function(sequelize,Sequelize){
     var UserData = sequelize.define('UserData',{
->>>>>>> 7973b37e73370b8399eb6f87760c29ad3408e15f
         user: {
             type:Sequelize.STRING,
         },
