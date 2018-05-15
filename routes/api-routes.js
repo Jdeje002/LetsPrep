@@ -117,15 +117,21 @@ module.exports = function (app) {
     // ========================== API & AJAX FOR EDAMAM ==================================== //
     
     app.post('/api/edamam', function(req, res){
-        console.log(req.body.calories)
+        console.log('edamam starting')
+        // var calories = {calories: req.body.calories}
+    //    var calorieAPI = db.UserData.findOne({
+    //         where: {
+    //             calories: req.body.calories,
+    //         },
+    //     })
+
         var calories = req.body.calories
+        var queryURL = "https://api.edamam.com/search?q=&app_id=" + app_id + "&app_key=" + app_key + "&to=30&calories=250-"+ calories + "&health=alcohol-free&time=25-30&ingr=5&diet=balanced&yield=1-4"
         
-        var queryURL = "https://api.edamam.com/search?q=&app_id=" + app_id + "&app_key=" + app_key + "&calories=0-" + calories 
-        
-        request("https://api.edamam.com/search?q=&app_id=" + app_id + "&app_key=" + app_key + "&calories=0-" + calories, function(error, response, body){
-            
-        // console.log(queryURL)
+        request(queryURL, function(error, response, body){
+            console.log(queryURL)
         // console.log(response.body)
+        // console.log(body)
         res.json(response.body)
         })
     })
