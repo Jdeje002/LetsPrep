@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,18 +16,31 @@
   <!-- <script src="./js/app.js"></script> -->
   <title>LetsPrep</title>
 </head>
-<body id="landingBody" style= "background-color: #64b5f6">
+
+<body id="landingBody" style="background-color: #64b5f6">
   <img class="bg" src="./images/landingPic.jpg">
   <!-- Nav Bar -->
-  <img class="bg" src="./images/landingPic.jpg">
-+    <!-- Hamburger -->
-+    <i class="medium material-icons right-align navHamburger dropdown-trigger" data-target="dropdown1">dehaze</i>
-+  <!-- Dropdown Structure -->
-+  <ul id='dropdown1' class='dropdown-content'>
-+    <li><a href="index.html">Home</a></li>
-+    <li><a href="user.html">Profile</a></li>
-+    <li><a href="landing.html">Plan a Meal</a></li>
-   </ul>
+  <img class="bg" src="./images/landingPic.jpg"> +
+  <!-- Hamburger -->
+  +
+  <i class="medium material-icons right-align navHamburger dropdown-trigger" data-target="dropdown1">dehaze</i>
+  +
+  <!-- Dropdown Structure -->
+  +
+  <ul id='dropdown1' class='dropdown-content'>
+    +
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+    +
+    <li>
+      <a href="user.html">Profile</a>
+    </li>
+    +
+    <li>
+      <a href="landing.html">Plan a Meal</a>
+    </li>
+  </ul>
   <!-- Main Section -->
   <div class="row">
     <div class="col s2"></div>
@@ -34,83 +48,71 @@
     <div class="col s4">
       <h1 id="landingTitle">Plan Your Meals</h1>
       <!-- Form to enter your calories goal -->
-      <form class ="inputInfo">
-              <div class="input-field">
-                <input placeholder="John Smith" id="name" type="text" class="validate">
-                <label for="name">Name</label>
-              </div>
-              <div class="input-field">
-                <input placeholder="Email" id="email" type="text" class="validate">
-                <label for="email">Email</label>
-              </div>    
-              <div class="input-field">
-                <input placeholder="Enter Goals For The Week" id="goals" type="text" class="validate">
-                <label for="goals">Goals</label>
-              </div>              
-              <!-- <div class="input-field">
-                <input placeholder="Goals" id="goals" type="text" class="validate">
-                <label for="goals">Enter Quick Goals for the Week</label>
-              </div> -->
-              <div class="input-field">
-                <input placeholder="Enter Number" id="calorieInput" type="text" class="validate">
-                <label for="calorieInput">Calorie Input</label>
-              </div>
-            </form>
-            <div class="modal-footer">
-              <button id="userBtn"class="modal-close waves-effect waves-teal btn-flat">Submit & Find Me Recipes!</button>
-              <!-- <button id="btn1"class="modal-close waves-effect waves-teal btn-flat">Find Recipes!</button> -->
-            </div>
+      <form class="inputInfo">
+        <div class="input-field">
+          <input placeholder="John Smith" id="name" type="text" class="validate">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field">
+          <input placeholder="Email" id="email" type="text" class="validate">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input placeholder="Enter Goals For The Week" id="goals" type="text" class="validate">
+          <label for="goals">Goals</label>
+        </div>
+  
+        <div class="input-field">
+          <input placeholder="Enter Number" id="calorieInput" type="text" class="validate">
+          <label for="calorieInput">Calorie Input</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <button id="userBtn" class="modal-close waves-effect waves-teal btn-flat">Submit & Find Me Recipes!</button>
+        <!-- <button id="btn1"class="modal-close waves-effect waves-teal btn-flat">Find Recipes!</button> -->
+      </div>
       <!-- Form to select your meals -->
       <div class="landingForm">
-        <div id= "meal_1"class="input-field col s12">
-          <!-- <select>
-            <option value="" disabled selected>Choose your breakfast</option>
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-          </select> -->
-          <label>Meal 1</label>
-        </div>
-        <div id= "meal_2"class="input-field col s12">
-          <!-- <select>
-            <option value="" disabled selected>Choose your lunch</option>
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-          </select> -->
-          <label>Meal 2</label>
-        </div>
-        <div id= "meal_3"class="input-field col s12">
-          <!-- <select>
-            <option value="" disabled selected>Choose your dinner</option>
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-          </select> -->
-          <label>Meal 3</label>
-        </div>
-        <div class="right-align">
-          <!-- <a id="add_something"class="btn-floating btn-large waves-effect waves-light red">
+        <div id="meal_1" class="input-field col s12"></div>
+        <label>Meal 1</label>
+      </div>
+      <div id="meal_2" class="input-field col s12">
+
+        <label>Meal 2</label>
+      </div>
+      <div id="meal_3" class="input-field col s12">
+
+        <label>Meal 3</label>
+      </div>
+      <div class="right-align">
+        <!-- <a id="add_something"class="btn-floating btn-large waves-effect waves-light red">
             <i class="material-icons">add</i> -->
-          <!-- </a> -->
-        </div>
+        <!-- </a> -->
       </div>
     </div>
-    <!-- Side Div -->
-    <div class="col s4" id="resultsDiv">
-      <div id="recipeDiv">
-        <h3 id="clientName">Please Fill Out The Form</h3>
-                <p class= 'nameRecipe' h4 id="recipeName">Recipe Name</h4>
+  </div>
+  <!-- Side Div -->
+  <div class="col s4" id="resultsDiv">
+    <div id="recipeDiv">
+      <h3 id="clientName">Please Fill Out The Form</h3>
+      <p class='nameRecipe' h4 id="recipeName">Recipe Name</h4>
         <hr>
-        <img id="recipesPic" src = ''></img>
-        <p class="recipeText">Meal Choice:<span id="recipeChoice"></span></p>
-        <p class="recipeText">Ingredients:<span id="choiceIngr"></span></p> 
+        <img id="recipesPic" src=''></img>
+        <p class="recipeText">Meal Choice:
+          <span id="recipeChoice"></span>
+        </p>
+        <p class="recipeText">Ingredients:
+          <span id="choiceIngr"></span>
+        </p>
         <div id="ingredients"></div>
-      </div>
     </div>
-    <div class="col s2"></div>
-  </div> 
-    <!-- </div> -->
-</div>
-<div class="col s2"></div>
-</div>
+  </div>
+  <div class="col s2"></div>
+  </div>
+  <!-- </div> -->
+  </div>
+  <div class="col s2"></div>
+  </div>
   <!-- Footer -->
   <footer class="blue lighten-2 center-align footer">
     <p id="copyright"> COPYRIGHT &copy 2018 LET'S PREP. ALL RIGHTS RESERVED </p>
@@ -121,14 +123,5 @@
   <script src="./js/app.js"></script>
   <!-- <script src="./js/user.js"></script> -->
 </body>
+
 </html>
-<!-- Page where user's activity is 
-List of history - Calendar w/jquery UI kit 
-about
-goals
-return call outline
-name of food
-img
-cal
-ingredientLines
--->
